@@ -1,1 +1,17 @@
-<p>graphic01 works!</p>
+<div class="row">
+  <div class="col-6">
+    <app-donut title="Sales" [data]="sentDoughnutChartData01"></app-donut>
+  </div>
+  <div class="col-6">
+    <app-donut title="Marketing" [data]="sentDoughnutChartData02"></app-donut>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <app-donut [title]="graphicTitle01"></app-donut>
+  </div>
+  <div class="col-6">
+    <app-donut></app-donut>
+  </div>
+
+</div>
